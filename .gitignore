@@ -1,0 +1,9 @@
+.zig-cache
+Teensyduino*/
+gcc/
+include/
+teensy3/
+thumb/
+zig-out/
+.DS_Store
+src/libraries/*/examples
