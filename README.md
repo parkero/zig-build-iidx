@@ -1,4 +1,4 @@
-: Added the stubs and a main function that runs the loop to `teensy3/src/IIDX_Controller.cpp:2323-2334`<br>
+: Added the stubs and a main function that runs the loop to `src/IIDX_Controller.cpp:2323-2334`<br>
 : I added some lines to the `teensy3/mk20dx256.ld:60-61` linkerscript to fix an error from zig about overlapping areas. <br>
 : I added some required stubs to `teensy3/main.cpp:34-39` They could also be added by adding `libnosys.a`, but then I would need to figure out how/provide an implementation to get `_sbrk` working. [{ref}](https://forum.pjrc.com/index.php?threads/using-std-vector.23467/post-69787) <br>
 : I had to make a change to `teensy3/pins_teensy.c:180` to get it to compile with clang [{ref}](https://stackoverflow.com/a/69384080) <br>
